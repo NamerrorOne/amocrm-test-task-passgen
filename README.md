@@ -38,6 +38,10 @@
 - **Production build**: `npm run build`
 - **Preview mode**: `npm run preview`
 
+- **ESLint checking**: `npm run lint`
+- **Styles checking**: `npm run stylelint`
+- **Architectural checking**: `npm run steiger`
+
 ## Метрики Lighthouse
 
 Засчет грамотного подхода к разработке, добавления meta description, meta keywords, robots.txt, а так же добавления лейблов и контролю контраста цветов были достигнуты следующие метрики:
@@ -46,3 +50,6 @@
 - **Accessibility**: 100%
 - **Best practices**: 100%
 - **SEO**: 100%
+
+![telegram-cloud-photo-size-2-5228809288162605179-y](https://github.com/user-attachments/assets/411be234-390b-461c-8f71-7cc2d188073e)
+
