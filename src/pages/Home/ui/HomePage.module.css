@@ -1,0 +1,20 @@
+.homePage {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+
+  padding: 50px;
+
+  text-align: center;
+}
+
+.homePageTitle {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.homePageDescription {
+  font-weight: 300;
+  color: #6b6b6b;
+}

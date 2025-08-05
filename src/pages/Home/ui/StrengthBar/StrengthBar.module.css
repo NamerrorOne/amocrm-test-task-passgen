@@ -1,0 +1,37 @@
+.strengthValue {
+  font-weight: 500;
+}
+
+.strengthBarСontainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.strengthBar {
+  width: 200px;
+  height: 6px;
+  border-radius: 10px;
+  background: var(--white);
+}
+
+.strengthBarInner {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 0.2s;
+}
+
+.low {
+  width: 33%;
+  background: #e81a54;
+}
+
+.medium {
+  width: 66%;
+  background: #f6bd60;
+}
+
+.high {
+  width: 100%;
+  background: #52b788;
+}

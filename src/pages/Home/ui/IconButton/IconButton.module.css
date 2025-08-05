@@ -1,0 +1,30 @@
+.iconButton {
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+
+  color: var(--black);
+
+  background: var(--gray-75);
+
+  transition: background 0.3s;
+}
+
+.iconButton:hover {
+  background-color: var(--gray-80);
+}
+
+.disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+
+.iconButton:hover.disabled {
+  background: var(--gray-75);
+}
